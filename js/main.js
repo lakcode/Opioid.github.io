@@ -457,8 +457,8 @@ $(window).resize(function() {
 });
 
 function resizeMain() {
-	width = window.innerWidth;
-	height = window.innerHeight;
+	width = window.innerWidth-20;
+	height = window.innerHeight -20;
 	
 	$("#lists").height(height-$("#lists").position().top);
 }
