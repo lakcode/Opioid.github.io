@@ -60,7 +60,7 @@ function initTimeline() {
   
 
   //charts
-  var maxTimelineWidth = $("#timeline").innerWidth() - 20;
+  var maxTimelineWidth = $("#timeline").innerWidth() - 50;
 
   var charts = [
 
@@ -221,7 +221,7 @@ function initTimeline() {
   function barChart() {
     if (!barChart.id) barChart.id = 0;
 
-    var margin = {top: 5, right: 10, bottom: 20, left: 10},
+    var margin = {top: 5, right: 20, bottom: 40, left: 10},
         x,
         y = d3.scale.linear().range([65, 0]),
         id = barChart.id++,
