@@ -25,8 +25,8 @@ var NetworkControllerObject = function() {
 
   this.layout = "network";
   this.gravity = 3;
-  this.charge = -120;
-  this.linkDistance = 2;
+  this.charge = -180;
+  this.linkDistance = 10;
   this.friction = 0.9;
   this.useCommunityDetection = true;
   this.useCollisionDetection = false;
