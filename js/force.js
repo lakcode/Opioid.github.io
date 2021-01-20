@@ -934,7 +934,7 @@ function buildDatGUI() {
 }
 
 function resizeForce() {
-  var width = window.innerWidth, height = window.innerHeight;
+  var width = window.innerWidth, height = window.innerHeight - 15;
   networkContainerWidth = width - $("#side").width() - 10;
   networkContainerHeight = height - $("#timeline").height();
   if (svg) svg.attr("width", networkContainerWidth).attr("height", networkContainerHeight);
