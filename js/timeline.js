@@ -479,7 +479,7 @@ function initTimeline() {
 
   function resizeTimeline() {
     var width = window.innerWidth
-    var height = window.innerHeight - 15;
+    var height = window.innerHeight - 5;
     maxTimelineWidth = $("#timeline").innerWidth() - 20;
     renderAll();
     
