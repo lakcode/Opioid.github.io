@@ -12,7 +12,7 @@ var networkContainerWidth = 600;
 var networkContainerHeight = 500;
 var graphInfo;
 
-var defaultSize = 3;
+var defaultSize = 5;
 var minRadius = 1;
 var maxRadius = 10;
 
@@ -24,9 +24,9 @@ var maxLinkWidth = 5;
 var NetworkControllerObject = function() {
 
   this.layout = "network";
-  this.gravity = 3;
+  this.gravity = 2;
   this.charge = -180;
-  this.linkDistance = 10;
+  this.linkDistance = 20;
   this.friction = 0.9;
   this.useCommunityDetection = true;
   this.useCollisionDetection = false;
